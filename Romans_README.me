@@ -1,0 +1,23 @@
+Romans.py
+This program contains two functions that convert integers to Roman numerals and vice versa.
+
+intRoman(num)
+This function takes an integer as input and converts it to a Roman numeral. It does this by using a dictionary that maps the important Roman numeral values to their corresponding characters. It then iteratively subtracts the largest possible Roman numeral value from the input integer until it reaches 0.
+
+Usage
+python
+Copy code
+num = int(input("Type a value to be changed to Roman value: "))
+romanNum = intRoman(num)
+print(f"Roman value of {num} is: {romanNum}")
+romanInt(romanNum)
+This function takes a Roman numeral as input and converts it to an integer. It does this by using a dictionary that maps the important Roman numeral characters to their corresponding integer values. It then iteratively adds the integer value of each character to a running total until it has processed the entire input string.
+
+Usage
+css
+Copy code
+romanNum = input("Type a Roman value to be changed to integer: ")
+num = romanInt(romanNum)
+print(f"Number value of {romanNum} is: {num}")
+
+
