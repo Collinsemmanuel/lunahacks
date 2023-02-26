@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="C:\Users\collo\Documents\CODE\JAVA\smartpilldispens.css"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Pill Dispenser</title>
+</head>
+<body>
+    <header>
+        <h1>Smart Pill Dispenser</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">Log Out</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>My Medications</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Medication</th>
+                    <th>Dosage</th>
+                    <th>Schedule</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Aspirin</td>
+                    <td>1 tablet</td>
+                    <td>Once a day</td>
+                    <td>Not taken</td>
+                </tr>
+                <tr>
+                    <td>Lipitor</td>
+                    <td>1 tablet</td>
+                    <td>Once a day</td>
+                    <td>Taken</td>
+                </tr>
+                <tr>
+                    <td>Metformin</td>
+                    <td>2 tablets</td>
+                    <td>Twice a day</td>
+                    <td>Not taken</td>
+                </tr>
+                <tr>
+                    <td>panadol</td>
+                    <td>2 Tablets</td>
+                    <td>trice a day</td>
+                    <td>not takens</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Dispense Medications</h2>
+        <form>
+            <label for="medication">Medication:</label>
+            <select id="medication" name="medication">
+                <option value="aspirin">Aspirin</option>
+                <option value="lipitor">Lipitor</option>
+                <option value="metformin">Metformin</option>
+            </select>
+            <br>
+            <label for="dosage">Dosage:</label>
+            <input type="text" id="dosage" name="dosage">
+            <br>
+            <label for="schedule">Schedule:</label>
+            <input type="text" id="schedule" name="schedule">
+            <br>
+            <button type="submit">Dispense</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 Smart Pill Dispenser</p>
+    </footer>
+</body>
+</html>
